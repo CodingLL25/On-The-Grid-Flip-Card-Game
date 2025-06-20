@@ -95,3 +95,16 @@ img {
     justify-content: center;
     font-size: larger;
 }
+
+/* Score and attempts left*/
+.score-and-attempts-area {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.matched-cards, .attempts-area {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}

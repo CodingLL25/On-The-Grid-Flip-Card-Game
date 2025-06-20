@@ -28,6 +28,38 @@
         <h1>On The Grid - Formula One Flip Card Game</h1>
     </header>
 
+    <!-- Buttons to start/stop the game and show instructions on how to play the game -->
+    <div class="control-area">
+        <button class="start">Let's get started!</button>
+        <button class="instructions">?</button>
+    </div>
+
+    <!--Games area -->
+    <div class="games-area">
+
+        <!-- Displays cards for matching -->
+        <div class="cards-area">
+            <div class="card-container">
+                <div class="card-front" data-type="blank"></div>
+                <div class="card-back" data-type="card">
+                    <img src="assets/images/alonso.jpg" alt="Fernando Alonso, F1 driver">
+                </div>
+            </div>
+        </div>
+
+        <!-- Displays number of matched cards and attempts left -->
+        <div class="score-and-attempts-area">
+            <div class="matched-cards">
+                <h2>Number of matched cards:</h2>
+            </div>
+
+            <div class="attempts-area">
+                <h2>Attempts left: </h2>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/js/script.js"></script>
 </body>
 
 </html>

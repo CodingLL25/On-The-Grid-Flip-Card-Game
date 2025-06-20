@@ -22,3 +22,76 @@ body {
     font-family: var(--primary-font);
     margin: 0;
 }
+
+header {
+    width: 100%;
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    text-transform: uppercase;
+    color: white;
+}
+
+img {
+    width: 165px;
+    height: 150px;
+}
+
+/* Games area - container style */
+.games-area {
+    background-color: var(--highlight);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+/* Controls area - container style */
+.control-area {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    background-color: white;
+    justify-content: center;
+}
+
+.start {
+    margin: 20px;
+    width: 150px;
+    height: 42px;
+    text-align: center;
+    font-weight: bold;
+    background-color: white;
+}
+
+.start:hover {
+    background: var(--bright-highlight);
+    color: white;
+}
+
+.instructions:hover {
+    background-color: rgba(169, 49, 62, 0.5);
+    color: white;
+}
+
+/* Cards area - container style */
+.cards-area {
+    display: grid;
+    grid-template-columns: repeat(4, 150px);
+    grid-template-rows: repeat(4, 150px);
+    width: max-content;
+    gap: 20px;
+    max-width: 1200px;
+    align-items: center;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+}
